@@ -32,7 +32,7 @@ if uploaded_file is not None:
             st.download_button(
                 label="Download Processed Image",
                 data=file,
-                file_name="output.png",
+                file_name="output-flowchart.png",
                 mime="image/png"
             )
     else:
