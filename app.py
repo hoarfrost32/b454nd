@@ -23,7 +23,7 @@ if uploaded_file is not None:
     subprocess.run(["python", "driver.py", input_image_path])
 
     # Display the output image
-    output_image_path = "output.png"
+    output_image_path = "output-flowchart.png"
     if os.path.exists(output_image_path):
         st.image(output_image_path, caption="Processed Output", use_column_width=True)
         
